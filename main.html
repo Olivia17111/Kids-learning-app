@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <script src="main_js.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="main_css.css">
+    </head>
+    <body>
+        <div class="col-xs-12 header_div text-center">
+          <b> <h3>Lesson-1</b>  </h3></div>
+               <div><br></div>
+
+        <center>
+
+        <div><br><br></div>
+       <b> <h1 class="btn btn-danger ch_name">"Alphabets"</b></h1>
+       
+        <hr>
+        <div><br><br></div>
+      <div> <h1 class="btn btn-success letter" id="A" onclick="speak_A()">A</h1> <h1 class="btn btn-success letter" onclick="speak_B()" id="B">B</h1> 
+       <h1 class="btn btn-success letter" id="C" onclick="speak_C()">C</h1> <h1 class="btn btn-success letter" onclick="speak_D()" id="D">D</h1> <br>
+       <h1 class="btn btn-success letter" id="E" onclick="speak_E()">E</h1> <h1 class="btn btn-success letter" onclick="speak_F()" id="F">F</h1> 
+       <h1 class="btn btn-success letter" id="G" onclick="speak_G()">G</h1> <h1 class="btn btn-success letter" onclick="speak_H()" id="H">H</h1> <br>
+       <h1 class="btn btn-success letter" id="I" onclick="speak_I()">I</h1> <h1 class="btn btn-success letter" onclick="speak_J()" id="J">J</h1> 
+       <h1 class="btn btn-success letter" id="K" onclick="speak_K()">K</h1> <h1 class="btn btn-success letter" onclick="speak_L()" id="L">L</h1> <br>
+       <h1 class="btn btn-success letter" id="M" onclick="speak_M()">M</h1> <h1 class="btn btn-success letter" onclick="speak_N()" id="N">N</h1> 
+       <h1 class="btn btn-success letter" id="O" onclick="speak_O()">O</h1> <h1 class="btn btn-success letter" onclick="speak_P()" id="P">P</h1> <br>
+       <h1 class="btn btn-success letter" id="Q" onclick="speak_Q()">Q</h1> <h1 class="btn btn-success letter" onclick="speak_R()" id="R">R</h1> 
+       <h1 class="btn btn-success letter" id="S" onclick="speak_S()">S</h1> <h1 class="btn btn-success letter" onclick="speak_T()" id="T">T</h1> <br>
+       <h1 class="btn btn-success letter" id="U" onclick="speak_U()">U</h1> <h1 class="btn btn-success letter" onclick="speak_V()" id="V">V</h1> 
+       <h1 class="btn btn-success letter" id="W" onclick="speak_W()">W</h1> <h1 class="btn btn-success letter" onclick="speak_X()" id="X">X</h1> 
+       <h1 class="btn btn-success letter" id="Y" onclick="speak_Y()">Y</h1> <h1 class="btn btn-success letter" onclick="speak_Z()" id="Z">Z</h1> </div>
+       <br><br>
+       <hr>
+       <br><br>
+
+       <div id="test_div"><br><h2>Done learning ? Want to test yourself ? Here you go !  </h2>
+        <button onclick="start()"  class="btn btn-primary" >Start</button>
+    <p>Speak any Alphabet</p>
+    <textarea class="form-control" id="textbox" readonly="true" >Alphabet that you are speaking is...</textarea><br><br>
+</div>
+<div><br><br></div>
+<div class="copy_right_footer"> Developed by Avni 
+   </div>
+        </center>
+    </body>
+</html>

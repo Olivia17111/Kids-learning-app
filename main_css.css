@@ -1,0 +1,36 @@
+body {
+    background-image: url("learning background 3.jpg");
+    background-size: cover;
+}
+.header_div{
+    position:fixed;
+    background-color:lavender;
+    text-shadow:5px 5px 5px rgb(0, 225, 255);
+    top: 0px;
+    width:100%;
+}
+
+.ch_name{
+    font-size: x-large;
+}
+h3{
+    font-size:xx-large;
+}
+
+.letter 
+{
+    box-shadow:5px 5px 5px grey;
+    margin :10px;
+}
+#test_div
+{
+    background-color: cornsilk;
+}
+#copy_right_footer
+{
+    position:fixed;
+    color:lavender;
+    bottom:0;
+    width:100%;
+    text-shadow: 5px 5px 5px lavenderblush;
+}
